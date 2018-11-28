@@ -186,6 +186,13 @@ What is the result?
     C)  world
     D) An error
 
+Q12)
+Which compile?
+A) Object o = (String s) -> s.length() > 3;
+B) Predicate<String> ps = (StringBuilder sb) -> sb.length() > 3;
+C) Predicate<LocalDate> pld = x -> true;
+D) Predicate<String> ps = String s -> s.length() < 6;
+E) Predicate<String> ps = (s) -> return s.length() < 6;
 
 
 
