@@ -1,5 +1,6 @@
 package uselists;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -185,5 +186,10 @@ public class Ex1 {
 //    Predicate<LocalDate> pld = x -> true;
 //    Predicate<String> ps = String s -> s.length() < 6;
 //    Predicate<String> ps = (s) -> return s.length() < 6;
+
+//    Serializable s = (String t) -> t.length() > 3;
+//    Predicate<String> ps = (String s) -> s.doStuff();
+    Predicate<Predicate> pp = p -> p.test(null);
+//    Predicate<String> ps = { return s.length() > 0; };
   }
 }

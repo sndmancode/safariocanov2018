@@ -194,5 +194,41 @@ C) Predicate<LocalDate> pld = x -> true;
 D) Predicate<String> ps = String s -> s.length() < 6;
 E) Predicate<String> ps = (s) -> return s.length() < 6;
 
+Q13)
+Which compile?
+
+A) Serializable s = (String t) -> t.length() > 3;
+B) Predicate<String> ps = (String s) -> s.doStuff();
+C) Predicate<Predicate> pp = p -> p.test(null);
+D) Predicate<String> ps = { return s.length() > 0; };
+
+Q14)
+Which are true?
+A) "Testing xxx" is printed once before "Last half -----"
+B) "Testing xxx" is printed once after "Last half -----"
+C) "Testing xxx" is printed six times before "Last half -----"
+D) "Testing xxx" is printed six times after "Last half -----"
+E) "Testing xxx" is not printed.
+
+Q15)
+  class Base2 {
+    void doBaseStuff() {
+      System.out.println("doBaseStuff");
+    }
+  }
+  class Sub2 extends Base2 {
+    void doBaseStuff() {
+      System.out.println("doSubStuff");
+    }
+  }
+
+In the Base2 and Sub2 classes, which are true in isolation?
+Y   A) doBaseStuff in Base can be marked throws Exception without causing errors
+Y   B) doBaseStuff in Base can be marked throws RuntimeException without causing errors
+N   C) doBaseStuff in Sub can be marked throws Exception without causing errors
+Y   D) doBaseStuff in Sub can be marked throws RuntimeException without causing errors
+Y   E) if doBaseStuff in Base were marked throws Exception,
+       then doBaseStuff in Sub can be marked throws IOException without causing errors
+
 
 
