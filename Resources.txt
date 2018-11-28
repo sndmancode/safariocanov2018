@@ -10,7 +10,7 @@ Resources:
 **** THIS WILL BE DELETED IN TWO WEEKS! Take a copy at the end if you want it (clone or download)
 
  - Quiz Tool (changes daily):
-Tuesday: http://ec2-34-210-79-32.us-west-2.compute.amazonaws.com:8080/quiz-tool/
+Wednesday: http://ec2-54-184-240-243.us-west-2.compute.amazonaws.com:8080/quiz-tool/
 
  - Safari (Pearson) OCA Study guide. 19 hours of video addressing all the objectives of the Associate exam
 https://www.safaribooksonline.com/library/view/oca-java-se/9780134427201/
